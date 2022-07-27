@@ -93,8 +93,10 @@
                             <h1 class="fw-bold">Expanded Learning Opportunities</h1>
                             <p class="head-par">It expanded learning opportunities for Students many new things from
                                 digital tools and technology.</p>
-                            <p class="head-par btn btn-primary">Get
-                                Started </p>
+                            <button type="button" class="btn btn-primary fs-2" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Get Started
+                            </button>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
@@ -251,7 +253,9 @@
             </div>
         </div>
         <div class="d-flex justify-content-center m-5">
-            <p class="head-par btn btn-primary text-center">See More Courses </p>
+            <button type="button" class="btn btn-primary fs-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                See More Courses
+            </button>
         </div>
         <!--========================
          Popular Courses card Section end
@@ -259,11 +263,11 @@
         <!--========================
          Rating Section start
         =============================-->
-        <section>
-            <div>
-                <img src="images/working.png" alt="">
+        <section class="row align-items-center bg-light">
+            <div class="col-md-6 col-sm-12 mb-5">
+                <img src="images/working.png" alt="" class="img-fluid">
             </div>
-            <div>
+            <div class="col-md-6 col-sm-12 ">
                 <h1>Explore The elearning Institute</h1>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                     alteration in some form, by injected humour, or randomised words which don't look even slightly
@@ -271,14 +275,68 @@
 
                     Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet
                     tend to repeat predefined. </p>
+                <div class="d-flex">
+                    <div class="p-3">
+                        <h1>3.2K+</h1>
+                        <p>Online Course</p>
+                    </div>
 
+                    <div class="p-3">
+                        <h1>600+</h1>
+                        <p>Expert Member</p>
+                    </div>
+
+                    <div class="p-3">
+                        <h1>1K+</h1>
+                        <p>Rating & Review</p>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary fs-2" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Read More
+                </button>
             </div>
-
         </section>
-
         <!--========================
          Rating Section end
         =============================-->
+        <!--========================
+         Ready to join
+        =============================-->
+        <section class="row bg-primary my-5 py-5 rounded text-white align-items-center">
+            <div class="col-md-6 col-sm-12 p-5">
+                <h1>Ready to join?</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout</p>
+            </div>
+            <div class="col-md-6 col-sm-12 d-flex justify-content-center">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light fs-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Register
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 
