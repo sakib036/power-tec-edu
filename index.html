@@ -162,9 +162,9 @@
         <!--========================
          Popular Courses card Section start
         =============================-->
-        <div class="container border border-danger">
+        <div class="container">
             <div class="row gx-2 border ">
-                <div class="card col-md-12 col-lg-6 border border-danger p-0 ">
+                <div class="card col-md-12 col-lg-6 p-0 ">
                     <div class="row g-0">
                         <div class="col-md-5 col-sm-12  ">
                             <img src="images/course/course-1.png" class="img-fluid rounded-start w-100 h-100" alt="...">
@@ -411,14 +411,14 @@
         =============================-->
         <section>
             <div class="row justify-content-center m-5">
-                <div class="col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-12">
                     <h1>Some Students Feedback</h1>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page
                         when looking at its layout</p>
                 </div>
             </div>
             <div>
-                <div class="row position-relative border border-danger">
+                <div class="row position-relative">
                     <div class="col-md-12 col-lg-6">
                         <div class="card">
                             <div class="card-body px-5">
@@ -507,10 +507,125 @@
                 </div>
             </div>
         </section>
-
-
         <!--========================
          Student Feedback Section End
+        =============================-->
+        <!--========================
+        Frequently Ask Question Start
+        =============================-->
+        <section>
+            <div class="row justify-content-center m-5">
+                <div class="col-lg-8 col-md-12">
+                    <h1 class="fs-1 fw-bold">Frequently Asked Questions</h1>
+                    <p class="fs-3">It is a long established fact that a reader will be distracted by the readable
+                        content of a page
+                        when looking at its layout.</p>
+                </div>
+            </div>
+            <div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is CSS Box Model ?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>CSS Box Model : </strong> All the element present in html
+                                follows css box module.
+                                The CSS box model is essentially a box that binds every HTML element in it. The css box
+                                model consists of margins, borders, padding, and the actual content. When we set the
+                                width and height properties of an element with CSS, we just set the width and height of
+                                the content area. To calculate the full size of an element, we must also add padding,
+                                borders and margins.
+                                <p>
+                                    The total width of an element should be calculated like this:
+
+                                    Total element width = width + left padding + right padding + left border + right
+                                    border + left margin + right margin
+
+                                    The total height of an element should be calculated like this:
+
+                                    Total element height = height + top padding + bottom padding + top border + bottom
+                                    border + top margin + bottom margin.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What is Semantic HTML5?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Semantic Tags: What They Are and How to Use Them! </strong> Semantic elements
+                                have
+                                meaningful names which tells about type of content. For example header, footer, table, …
+                                etc . A semantic element clearly
+                                describes its meaning to both the browser and the developer.These tags tell the browser
+                                how to display the content on the page.That explicit information helps robots/crawlers
+                                like Google and Bing to better understand which content is important, which is a
+                                subsidiary, which is for navigation, and so on.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What are the Difference Between Flexbox and Grid ?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Grid and flexbox : </strong> CSS Grid and Flexbox are layout
+                                models that share similarities and can be used together. The key difference is that CSS
+                                Grid can be used to create two-dimensional layouts, while Flexbox can only be used to
+                                create one-dimensional layouts. That means you can place components along the X- and
+                                Y-axis in CSS Grid and only one axis in Flexbox. Making it easier to design
+                                web pages without having to use floats and positioning. Like tables, grid layout allow
+                                us to align elements into columns and rows.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Difference Between Bootstrap and Tailwind ?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Bootstrap vs Tailwind : </strong> To create an interface between computers and
+                                people, developers use front-end frameworks. These frameworks are designed and developed
+                                to create sites for people. They allow developers and users to have adequate control.
+                                Bootstrap and Tailwind are also two such CSS front-end frameworks used on a large
+                                scale.Bootstrap is what I'd call a Component-based Framework. It's designed to help
+                                developers quickly bootstrap a typical website or app and so comes with a set of
+                                pre-made components, along with some utilities for spacing etc. Other similar frameworks
+                                include Bulma and Foundation.
+                                TailwindCSS is a Utility-first Framework. In contrast to Bootstrap, which provides a few
+                                utilities, Tailwind is all utilities. The core framework has no pre-made components, so
+                                you'll need to build your own.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--========================
+        Frequently Ask Question End
         =============================-->
 
 
